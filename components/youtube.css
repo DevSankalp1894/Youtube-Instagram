@@ -1,0 +1,43 @@
+
+
+#container{
+      margin-top:2%;
+      display:grid;
+      grid-template-columns: repeat(4,20%);
+      grid-gap:6.5%;
+}
+
+img{
+    width:100%;
+}
+
+ #container>div{
+       height:300px;
+} 
+
+#navbar h1{
+    color:red;
+    margin-left:2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  #navbar {
+    display:flex;
+    gap:70%;
+    background-color: aqua;
+    
+    
+  }
+
+  #sil {
+      display:flex;
+      gap:20%;
+  }
+
+  input {
+    margin-top:1%;
+  }
+
+  a {
+    text-decoration: none;
+  }
